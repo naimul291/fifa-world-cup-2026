@@ -23,31 +23,34 @@
 
 /*header*/
 
-.container{
+.container-main{
     width:1200px;
     margin:0 auto;
 }
-
+.container{
+    width:1000px;
+    margin:0 auto;
+}
 .header-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
 }
-ul{
+.header-nav ul{
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-ul a{
+.header-nav ul a{
     text-decoration: none;
     padding: 5px;
     color: #575757;
 }
 
-ul a:hover{
+.header-nav ul a:hover{
     background-color: #e8ba2e;
     padding: 5px;
     color: black;
@@ -85,8 +88,8 @@ ul a:hover{
 
 .hero-content p{
     color:#fff;
-    line-height:1.7;
-    font-size:16px;
+    line-height:1;
+    font: size 17px;px;
     margin-bottom:30px;
 }
 
@@ -105,3 +108,31 @@ ul a:hover{
     font-size: 50px;
 }
 
+/*Explore Host Cities*/
+
+.city-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
+}
+
+.host-city h1{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
+}
+.city-info h3 {
+    padding-bottom: 15px;
+}
+.city-info p{
+     padding-bottom: 15px;
+     text-align: justify;
+}
+.city-info ul{
+    padding-bottom: 15px;
+    padding-left: 17px;
+}
+.button-center{
+    text-align: center;
+    padding: 20px;
+}
