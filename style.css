@@ -9,10 +9,11 @@
     background-color: #e8ba2e;
     border: none;
     border-radius: 10px;
-    padding: 0px 20px;
+    padding:14px 28px;
     margin: 5px;
     cursor: pointer;
     border: 1px solid #e8ba2e;
+    font-weight: bold;
 }
 
 .common-button:hover{
@@ -20,18 +21,25 @@
     border: 1px solid #e8ba2e;
 }
 
+/*header*/
+
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+
 .header-nav{
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
 }
 ul{
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 20px;
-    
-
+    justify-content: center;
+    gap: 10px;
 }
 ul a{
     text-decoration: none;
@@ -44,3 +52,41 @@ ul a:hover{
     padding: 5px;
     color: black;
 }
+
+/*hero*/
+
+.hero{
+    width:1200px;
+    height:650px;
+    margin:10px auto;
+    background:
+        linear-gradient(rgba(0,0,0,.25),rgba(0,0,0,.45)),
+        url("./images/Background.png");
+
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    border-radius:18px;
+}
+.hero-content{
+    margin-left: 40px;
+    width: 350px;
+}
+
+.hero-content h1{
+    color: white;
+    font-size:60px;
+    line-height:1;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    color:#fff;
+    line-height:1.7;
+    font-size:16px;
+    margin-bottom:30px;
+    width: ;
+}
+
