@@ -136,3 +136,38 @@
     text-align: center;
     padding: 20px;
 }
+.table{
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+td, th{
+    border: 1.5px solid rgb(0, 0, 0);
+    padding: 10px;
+
+}
+th{
+    background-color: #A73131;
+    color: white;
+}
+td{
+    padding-left: 50px;
+}
+.date{
+    color: #F60000;
+}
+
+.container.table-1 {
+    background-color: #e7e7e7;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container.table-1 h3{
+    padding-bottom: 10px;
+}
+
+.container.table-1 p{
+    padding-bottom: 20px;
+}
