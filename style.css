@@ -89,7 +89,7 @@
 .hero-content p{
     color:#fff;
     line-height:1;
-    font: size 17px;px;
+    font: size 17px;
     margin-bottom:30px;
 }
 
@@ -242,6 +242,11 @@ hr{
     font-size: 30px;
     align-items: center;
     display: flex;
+}
+
+.icon a:hover{
+    transform: scale(1.2);
+    color: #ffffff;
 }
 
 .footer-text{
