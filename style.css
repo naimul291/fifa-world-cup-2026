@@ -171,3 +171,98 @@ td{
 .container.table-1 p{
     padding-bottom: 20px;
 }
+
+.faq{
+    max-width:900px;
+    margin:80px auto;
+}
+
+details{
+    border:1px solid #ddd;
+    border-radius:10px;
+    margin-bottom:15px;
+    padding:18px;
+}
+
+.info h1{
+    text-align: center;
+    padding: 30px 0px;
+}
+summary{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    cursor:pointer;
+    font-size:20px;
+    font-weight:600;
+    list-style:none;
+}
+
+summary::-webkit-details-marker{
+    display:none;
+}
+
+details p{
+    margin-top:15px;
+    color:#666;
+}
+
+details[open] summary span{
+    content:"-";
+}
+
+details[open] summary span::before{
+    content:"−";
+}
+
+details[open] summary span{
+    font-size:0;
+}
+
+summary span{
+    font-size:28px;
+}
+.container.footer{
+   background-color: #e8ba2e;
+}
+.footer-logo{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+hr{
+    width: 70%;
+    margin: 20px auto;
+}
+
+.icon{
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+}
+
+.footer-text{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+
+.footer-text ul{
+    list-style: none;
+    display: flex;
+   gap: 20px;
+
+}
+.footer-text ul a{
+    text-decoration: none;
+}
+
+.copyright{
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
